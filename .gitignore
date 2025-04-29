@@ -1,0 +1,77 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.Python
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Environment variables
+.env
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Machine learning artifacts
+app/models/
+*.h5
+*.pkl
+*.joblib
+*.model
+*.onnx
+*.tflite
+
+# Docker-related files
+*.pid
+*.tar
+*.bak
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Static and media files
+staticfiles/
+media/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Documentation or planning files
+plan.md
+
+# Additional MLOps-related files
+mlruns/
+*.yaml
+*.json
+*.ckpt
